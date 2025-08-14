@@ -245,7 +245,10 @@ require('lazy').setup({
 -- NOTE: You can change these options as you wish!
 
 -- personalized configuration
+vim.g.have_nerd_font = true
+vim.o.showmode = false
 vim.wo.relativenumber = true
+vim.o.number = true
 vim.o.autoindent = true
 vim.o.smartindent = true
 vim.o.wrap = true
@@ -266,7 +269,6 @@ vim.wo.number = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
-
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
